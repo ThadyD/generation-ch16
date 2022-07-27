@@ -1,0 +1,39 @@
+ul{
+    list-style-type: circle;
+}
+
+ol{
+    list-style: decimal;
+}
+
+h1{
+    background-color: blueviolet;
+    width: fit-content;
+}
+/* {
+    border: 3px dotted purple;
+} */
+div{
+    background-color: aquamarine;
+    width: 200px;
+}
+/* 
+div{
+    width: 200px;
+    height: 200px; 
+} */
+
+a{
+    display: inline-block;
+    background-color: fuchsia;
+    width: 200px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+span{
+    font-size: large;
+    font-family: cursive;
+    font-weight: 700;
+    border: 1px dashed blue;
+}

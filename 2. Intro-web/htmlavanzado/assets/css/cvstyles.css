@@ -1,0 +1,54 @@
+/* paleta de color:
+99DDCC
+FF5DA2
+9C19E0
+000D6B */
+
+*{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+h2{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 29ch;
+    
+    animation: typing 2s steps(29), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {width: 0;}    
+}
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+
+header{
+    background-color: #dd76f2;
+    width: auto;
+    height: auto;
+}
+
+main{
+    background-color: #faa9cc;
+    width: auto;
+    height: auto;
+}
+aside{
+    float: right;
+    background-color: rgb(170, 248, 248);
+    width: auto;
+    height: auto;
+}
+footer{
+    background-color: #baaaf6;
+    width: auto;
+    height: auto;
+}

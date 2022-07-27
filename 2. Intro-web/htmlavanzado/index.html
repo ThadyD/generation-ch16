@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html avanzado</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <h1>Html Avanzado</h1>
+
+    <h2>Listas</h2>
+    <p> Lista desordenada </p>
+    <!-- solo agrega el icono de circulo al inicio del elemento el cual se puede modificar con list-style-type, a este se le puede agregar un none para que no mueste iconos. ejem. style="list-style-type: circle;"-->
+    <ul >
+        <li> Primer elemento</li>
+        <!-- <ul> para agregar más de un elemento puede usarse la etiqueta * el numero de elementos requeridos, por ejemplo li*2, y si queremos que una palabra se imprima en cada uno de los elementos podermos usar li*n{palabra} -->
+            <ol>
+                <li class="sub">subelemento</li>
+                <li class="sub">subelemento</li>
+                <li class="sub">subelemento</li>
+            </ol>
+        <li> Segundo elemento</li>
+        <li> Tercer elemento </li>
+
+    </ul>
+
+    <p> Lista ordenada </p>
+    <!-- <ol> acomoda los elementos en numeros. se usa el atributo list-style para cambiar los iconos de numeros a letras u otra opcion  ejem. style="list-style; upper-latin". Si queremos que empiece en un numero en especifico se puede indicar con start=""-->
+    <ol start="6">
+        <li> Primer elemento</li>
+        <li> Segundo elemento</li>
+        <li> Tercer elemento </li>
+    </ol>
+ <!-- nota: cuando agregamos ejemplo start="6" start es el atributo mientras 6 es el valor. ol seria un selector -->
+<hr>
+    <h2>Elementos de bloque y en línea</h2>
+    <!-- utilizan todo el renglon aun cuando no tenga letras o números -->
+    <div>
+        <!-- para que un div que no tiene contenido se pueda mostrar requiere de un width y un height con pixeles -->
+        div1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo deleniti dolorum aspernatur inventore expedita voluptate voluptatibus a. 
+        </div>
+        <div>
+        div2 Nihil expedita ipsum omnis reiciendis autem! Labore similique perspiciatis quis asperiores. Numquam.
+    </div>
+    <a href="#">Enlace 1</a>
+    <a href="#">Enlace 2</a>
+    <a href="#">Enlace 3</a>
+
+    <br>
+
+    <span> Esto es un span </span>
+
+    <br>
+    <p>
+        <!-- strong pone en negritas la parte del texto que se encuentre dentro. em pone en italica el texto dentro. mark subraya el texgto dentro. span nos ayuda a darle formato a partes especificas del texto (las que esten dentro)-->
+        Lorem ipsum <strong> dolor sit amet consectetur </strong>  adipisicing elit. Minus omnis beatae quidem! Sapiente, magnam dolorem quod animi sint <em>earum molestiae</em>  hic adipisci sunt error, ipsum delectus esse repellat voluptatum laboriosam enim eius tenetur? <mark> Deserunt exercitationem tempora minus nam ipsa officia eveniet fugiat ex dignissimos  </mark> commodi quas incidunt praesentium, odio debitis architecto accusantium dolorum nemo ullam doloremque nostrum perspiciatis <span> quae odit vel. Laudantium cum officia recusandae inventore sunt </span>  hic nam illo. Debitis beatae libero corporis molestias voluptatibus laboriosam architecto suscipit excepturi, temporibus commodi ab velit voluptate quo magnam. Cum voluptate aspernatur quasi beatae repellat, explicabo asperiores fuga voluptatem quo exercitationem sed.
+    </p>
+
+
+</body>
+</html>

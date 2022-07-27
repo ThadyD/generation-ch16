@@ -1,0 +1,27 @@
+*{
+    font-size: 2rem;
+}
+header{
+    background-color: aquamarine;
+    width: auto;
+    height: 200px;
+}
+
+main{
+    background-color: rgb(184, 35, 164);
+    width: 1000px;
+    height: 600px;
+}
+
+footer{
+    background-color: rgb(82, 17, 134);
+    width: auto;
+    height: 150px;
+}
+
+.cuadro{
+    display: inline-block;
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+}
