@@ -1,0 +1,9 @@
+div {
+    border: rgb(63, 6, 68) 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+div ~ p {
+    color: blueviolet;
+}

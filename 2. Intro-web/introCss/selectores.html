@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/selector.css">
+</head>
+
+<!--estilizado de forma decendiente (cajas). todo lo que se encuentre dentro de div se vera afectado por el formato. También se puede seleccionar una parte especifica dentro del div agregando el div li o div ul para usarlo como un indicador sobre lo que se busca dar formato. De igual forma podemos referirnos a elementos externos. -->
+
+<body>
+    <!-- selector hijo se define como E>f este afectara a lo que este dentro del div. ejem div > p hara que todos los parrafos dentro de div tengan esa propiedad-->
+    <!-- el selector consecutivo es se define como E + f y afecta el primer elemento inmediato que esta fuera de la caja (del div) -->
+    <!-- el selector hermano E ̣~ f (altgr + 4 para hacer el gusanito) afecta todos los elementos que estan fuera del div -->
+    <p> Esto es un parrafo </p>
+    <div>
+        <ul>
+            <li>
+                Esto es una lista
+                <p> Esto es otro parrafo interno </p>
+            </li>
+        </ul>
+        <p> esto es otro párrafo 3</p>
+    </div>
+<p> este es un parrafo fuera de div</p>
+
+<p> este es otro parrafo fuera de div</p>
+
+<!-- la función rgb me permite integrar numeros decimales porque ya hizo una conversión del codigo hexadecimal (#ffffff). Ambos pueden usarse para dar color a los elementos de nuestra pagina.
+ejemplo de la función rgb: -->
+<p style="background-color: rgb(7,6,3); color: antiquewhite;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eos non. Reiciendis autem iure ea magnam? Perspiciatis, accusantium praesentium enim voluptatum reprehenderit in distinctio consectetur deleniti, doloribus, dignissimos laborum ut.</p>
+
+</body>
+
+</html>
