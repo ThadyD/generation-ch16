@@ -1,0 +1,55 @@
+.cuadro{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 50px; 
+    /* display: inline-block; */
+    border: 10px yellow solid;
+    border-radius: 10px 20px 30px 40px;
+}
+/* el margen y el padding pueden ser especificados por cada lado como se muestra en el ejemplo
+mientras que si se agrega solo como margin: # o padding:# dara el mismo margen a todos los lados. De igual forma ambos puede especificarse en forma lineal del modo margin: 10px 20px 30px 40px, en sentido horario. No es necesario poner cada lado, pueden ser solo dos valores*/
+/* El bordeer también sigue la estructura horaria pero iniciando por la esquina superior izquierda */
+
+/* POSICIONES */
+/* la posición statatic es la posición por defecto, agregarla no hace diferencia */
+/* la posición absolute hace que al elemento en que se pone esa pocisión sale del flujo del html. Esta función también te permite darle la pocision que se prefiera, se mueve respecto al margen de la pagina */
+/* la posición relativa se mueve respecto a su origen, y mantiene el flujo de html */
+/* posición fixed se queda fijo en la pantalla y sale del flujo de html. Es decir conforme bajas en la pantalla fixed hara que el elemento no abandone la parte de la pantalla donde se anclo */
+/* posicion sticky sirve para que una vez que un elemento llegue al lugar indicado se fije ahí mientras navegas en la pagina */
+
+.el-1{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.el-2{
+    background-color: rgb(37, 66, 94);
+    position: sticky;
+    top: 0px;
+}
+
+.el-3{
+    background-color: rgb(43, 226, 134);
+    position: relative;
+    bottom: 200px;
+    left: 200 px;
+}
+
+.el-4{
+    background-color: rgb(226, 110, 43);
+    position: absolute;
+    top: 100px;
+    right: 250px;
+}
+
+.el-5{
+    background-color: rgb(226, 43, 144);
+}
+
+

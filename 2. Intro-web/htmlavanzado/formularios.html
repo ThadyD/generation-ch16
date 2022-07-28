@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="assets/css/formularios.css">
+
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Panchito Lopéz"
+            name="nombre" id="nombre" required>
+        </div>
+    <!-- requiredes una etiqueta que sirve para hacer que el campo sea obligatorio para enviar el Formulario -->
+
+        <div class="campo">
+            <label for="email">Email </label>
+            <input type="email" name="email" 
+            id="email"
+            placeholder="panchito@gmail.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="password">Contraseña</label>
+            <input type="password"
+            name="password" id="password" required>
+        </div>
+
+        <div class="campo">
+            <label for="color">Color </label>
+            <input type="color" name="Color"
+            id="Color">
+
+        </div>
+
+        <div class="campo">
+            <label for="number">Numero </label>
+            <input type="number" name="Number"
+            id="Number" min="10" max="20" step="1">
+            <!-- step sirve para establecer la cantidad de numeros que ira saltando. minimo y maximo limita el rango de los numeros que se pueden ingresar -->
+        </div>
+
+        <div class="campo">
+            <label for="range">Rango </label>
+            <input type="range" name="range"
+            id="range" min="10" max="20" step="4">
+
+        </div>
+
+        <div class="campo">
+            <label for="fecha">Fecha </label>
+            <input type="date" name="fecha"
+            id="fecha">
+        </div>
+
+        <div class="campo">
+            <label for="archivo">Subir archivo </label>
+            <input type="file" name="archivo"
+            id="archivo">
+        </div>
+
+        <div class="campo">
+            <label for="radio">Radio </label>
+            <input type="radio" name="radio"
+            id="radio">
+        </div>
+
+        <div class="campo">
+            <label for="checkbox">Checkbox </label>
+            <input type="checkbox" name="checkbox"
+            id="checkbox">
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Enviar">
+        </div>
+
+        <div class="reset">
+            <input type="reset" value="Limpiar">
+        </div>
+
+    </form>
+
+    <h3> Input de rango con marcas </h3>
+    <input type= "range" list="tickmarks" min="0" max="20">
+    <datalist id="tickmarks">
+        <option value="0">
+        <option value="5">
+        <option value="10">
+    </datalist>
+    <!-- las etiquetas label no son soportadas por ningun navegador, mientras mark unicamente funciona en chrome -->
+    <i class="fa-brands fa-apple"></i>
+
+
+</body>
+</html>

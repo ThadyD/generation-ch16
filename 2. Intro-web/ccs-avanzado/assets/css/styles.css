@@ -1,0 +1,9 @@
+/* (fonts.google.com) otra forma de agregar fuentes es con import, de hecho es más recomendable. se hace de la siguiente manera: */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Mochiy+Pop+One&display=swap');
+
+h1{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
