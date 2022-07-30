@@ -1,0 +1,73 @@
+.cuadro-padre{
+    background-color: rgb(248, 193, 175);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap-reverse; */
+}
+/* para usar display flex es necesario que los elementos que se quieran afectar tendrar que contenerse dentro de un elemento padre al cual se le aplica el flex para que lo "herede" a sus elementos hijos */
+/* nota: justify-content: space arroun o space betwen le da espacio entre elementos para mas información: https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/ */
+
+.cuadro{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 50px; 
+    border: 10px yellow solid;
+    border-radius: 10px 20px 30px 40px;
+}
+/* Display
+None oculta el elemento
+block hace que los elementos trabajen como de bloque.
+in-line hace que los elementes trabajen como de linea
+in-line block */
+
+.el-1{
+    background-color: blueviolet;
+    align-self: flex-start;
+    flex-grow: 3;
+}
+
+.el-2{
+    background-color: rgb(37, 66, 94);
+    flex-grow: 1;
+}
+
+.el-3{
+    background-color: rgb(43, 226, 134);
+    flex-grow: 1;
+}
+
+.el-4{
+    background-color: rgb(226, 110, 43);
+    flex-grow: 1;
+}
+
+/* .el-5{
+    background-color: rgb(226, 43, 144);
+    flex-grow: 1;
+} */
+
+/* introducción a bootstrap */
+.contenedor{
+    height: 200px;
+    background-color: #80cccc;
+    max-width: 1000px;
+    margin: 0 auto
+}
+.fila{
+    display:flex
+}
+
+.columna{
+    flex-grow: 1;
+}
+
+/* .color-rojo{
+    background-color: red;
+} */

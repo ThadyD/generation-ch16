@@ -1,4 +1,20 @@
+
+
+/* un rem es = a 16px porque hereda la medida por default de html (que es 16 px) si nosotros cambiamos el tamaño de fuente que tiene nuestro html como se muestra a continuación */
+
+html{
+    font-size: 10px;
+}
+
+/* un em = 16px porque toma la unidad del objeto padre. Si el objeto padre del elemento no esta determinado se usa el valor por :default de html. Si el objeto padre tiene un valor determinado el em lo retomara (se hereda solamente uno inmediato) en resumen: 
+em = al tamaño del objeto padre inmediato */
+
+.cuadro-padre{
+    font-size: 12px;
+}
+
 .cuadro{
+
     height: 150px;
     width: 150px;
     margin-top: 10px;
