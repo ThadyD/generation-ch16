@@ -1,0 +1,15 @@
+.img-carousel{
+    height: calc(100vh - 76px);
+    object-fit: cover;
+}
+
+.img-carta{
+    height: 300px;
+    object-fit: cover;
+}
+/* nota: la formula calc(100vh - medida de nav) sirve para que nuestra pagina se ajuste a la medida del navegador y dispositivo que la abre. Donde la parte de vh define el espacio de pantalla en porcentaje que queramos abarcar. */
+
+.caja{
+    position: relative;
+    top: -80px;
+}

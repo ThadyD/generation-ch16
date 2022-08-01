@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- poner un icono en la pestaña de nuestra pagina web -->
+    <link rel="icon" href="https://i.pinimg.com/originals/5c/b9/18/5cb918952f184853961ea83597082f38.png">
+
+    <title>Musicats</title>
+</head>
+
+<body>
+    <div class="container-fluid m-0" style="background-color: rgb(167, 121, 167);" id="inicio">
+        <h5 class="m-0 text-monospace text-center py-.5">La curiosidad le enseño de música al gato</h5>
+    </div>
+
+    <!-- cambiar texto a blanco navbar-dark, letras color negro navbar light, para cambiar el color de fondo puede usarse los predeterminados de bootstrap como bg-primary dentro de las comillas o usar las siguiente forma para usar color personalizado. -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(37, 2, 46);">
+
+
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.pinimg.com/originals/5c/b9/18/5cb918952f184853961ea83597082f38.png" alt=""
+                    width="50px">
+                <span>Musicats</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#generos">Géneros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artistas">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Se creo una clase img-carousel para poder hacer uso de nuestros propios diseños por medio de un archivo de css propio (contenido en la carpeta assets).
+igualmente es necesario señalar que data-interval es un atributo que define el tiempo en que cambia la presentación de las diapositivas. Se tiene que agregar a cada imagen como se muestra a continuacion. -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-interval="2000">
+                <img src="https://www.yoamoalasmascotas.com/wp-content/uploads/2018/05/Dicen-que-la-mu%CC%81sica-amansa-a-las-fieras-iStock-1840x500.jpg "
+                    class=" img-carousel d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item" data-interval="2000">
+                <img src="https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/img/article/cat-with-paw-on-piano-SW.jpg "
+                    class="img-carousel d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item" data-interval="2000">
+                <img src="https://i0.wp.com/s3.amazonaws.com/tugatocurioso/wp-content/uploads/2019/10/22040208/126.jpg?fit=700%2C378&ssl=1"
+                    class="img-carousel d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+
+
+    <div class="generos" id="generos">
+        <div class="container">
+            <div class="caja">
+                <h2 class="text-center">Géneros</h2>
+                <div class="row">
+                    <div class="col">
+                        <img src="https://imgs.classicfm.com/images/242000?crop=16_9&width=660&relax=1&signature=a9iI9_7oZ2kZH-tNbWFypKuvzc0="
+                            width="100%" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://imgs.classicfm.com/images/242002?crop=16_9&width=660&relax=1&signature=iPn7PgIBN3qQajqQmLN4DM3l2Yo="
+                            width="100%" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://imgs.classicfm.com/images/242003?crop=16_9&width=660&relax=1&signature=QHYCGrH19LCzK2BgQJdFyxqitPM="
+                            width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="artistas" id="artistas">
+        <div class="container">
+            <h2 class="text-center">Artistas</h2>
+
+            <!-- row hace referenca a la forma en que se ordenaran las tarjetas, de modo que col-# y cols-md-# establecen comportamientos de acuerdo al tamaño de pantalla. En este caso define el numero de columnas que se tendran en cada fila. En el siguiente ejemplo podemos ver que el numero de columnas crece conforme la pantalla se va haciendo más grande-->
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center">
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/teepublic/image/private/s--MBbaYGIc--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_000000,e_outline:48/co_000000,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1569097369/production/designs/6046165_1.jpg "
+                            class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Michi Jackson</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://as1.ftcdn.net/v2/jpg/02/44/51/32/1000_F_244513263_FrCIl5K49AX7kcLOzst6pEKeZkAqVEab.jpg "
+                            class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Michi Harris</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/2e/6b/05/2e6b05a835a8422dc4d5cb7531fcecba.jpg "
+                            class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Michi Bowie</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/1a/5f/24/1a5f241c69166bdc4cddfb00dfc4b0e3--amy-winehouse-famous-faces.jpg "
+                            class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Michi Winehouse</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="top my-5 p-5 text-white" style="background-color: rgba(37, 2, 46, 0.747); padding: 40px; padding-top: 100px;" id="top">
+        <div class="container">
+            <h2 class="text-center">Top</h2>
+
+            <div class="row text-center">
+                <div class="col-12 col-md-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda alias praesentium ab tempore
+                        adipisci, qui quibusdam ipsam fugiat quasi corrupti pariatur consequatur, dicta eligendi
+                        inventore suscipit dolorum est autem aut.</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8FxvgiJh1PQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+
+            <!-- FORMAS DE DIVIDIR COLUMNAS  -->
+            <!-- <div class="row">
+                    se dividen en forma equitativa
+                    <div class="col bg-primary">1</div>
+                    <div class="col bg-success">2</div>
+
+                </div>
+                
+                <div class="row">
+                    se puede definir el tamaño que se desea para cada una
+                    el total de columnas son 12 por lo tanto este numero se puede dividir de la manera que deseemos en el numero de columnas que se requieran.
+
+                    
+                    <div class="col-2 bg-primary">1</div>
+                    <div class="col-10 bg-success">2</div>
+
+                </div>
+                <div class="row">
+                    se puede definir el tamaño que se desea solo para algunas, combinando los dos ejemplos anteriores
+                    <div class="col-3 bg-primary">1</div>
+                    <div class="col bg-success">2</div>
+                    <div class="col- bg-primary">3</div>
+                </div> -->
+
+
+
+        </div>
+    </div>
+
+
+    <div class="contacto" id="contacto">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+
+            <form class="bg-dark text-white p-4 rounded-lg">
+
+                <div class="form-row">
+                    <label for="inputEmail4">Correo electronico</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="inputAddress">Calle y número</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="inputAddress2">Colonia</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">Cudad</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Estado</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Código Postal</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            He leido el acuerdo de privacidad
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white text-center mt-5">
+        <h6 class="m-0 p-3">Todos los derechos reservados. 2022</h6>
+    </footer>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
