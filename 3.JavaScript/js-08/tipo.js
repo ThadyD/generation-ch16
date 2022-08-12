@@ -11,7 +11,7 @@ let obj_literal = {
 
 let obj_constructor = new Object();
 obj_constructor.nombre = "Dora";
-obj_constructor.eda = 23;
+obj_constructor.edad = 23;
 console.log(obj_literal);
 console.log(obj_constructor);
 
