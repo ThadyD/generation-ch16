@@ -1,0 +1,7 @@
+public  class Hola{
+//esto es un clase del JDK de Java
+	public static void main (String [g){
+	//esta es la declaracion del metodo main
+	
+	}
+}
