@@ -25,3 +25,5 @@ WHERE cliente_id = 2;
 
 DELETE FROM clientes
 WHERE nombre = 'Pedro';
+
+DROP TABLE clientes;
